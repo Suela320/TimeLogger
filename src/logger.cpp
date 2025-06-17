@@ -41,4 +41,9 @@ void ActivityLogger::displayActivities() const {
         total += a.duration;
     }
     std::cout << "\n Koha totale: " << total << " minuta.\n";
+
+    int total = 0;
+    for (const auto& a : v) total += a.duration;
+    std::cout << "\n⏱️ Koha totale: " << total << " minuta.\n";
+
 }
