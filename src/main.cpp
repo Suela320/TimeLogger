@@ -48,7 +48,8 @@ int main() {
         else {
             std::cout << " Zgjedhje e pavlefshme!\n";
         }
-    }
-
+    }    std::cout << "\033[1;32m Aktiviteti u shtua me sukses!\033[0m\n";
     return 0;
 }
+
+
