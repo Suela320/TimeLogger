@@ -21,9 +21,10 @@ int main() {
         } else if (ch == 3) break;
         else std::cout << " Zgjedhje e pavlefshme!\n";
     }
+    std::cout << "\033[1;32m✅ Aktiviteti u shtua me sukses!\033[0m\n";
     return 0;
     //test
 
-    std::cout << "\033[1;32m✅ Aktiviteti u shtua me sukses!\033[0m\n";
+   
 
 }
