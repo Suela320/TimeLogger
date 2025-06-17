@@ -47,3 +47,18 @@ void ActivityLogger::displayActivities() const {
     std::cout << "\n⏱️ Koha totale: " << total << " minuta.\n";
 
 }
+void ActivityLogger::searchActivity(const std::string& keyword) const {
+    auto v = listActivities();
+    bool found = false;
+    std::cout << "\n Rezultatet e kërkimit për \"" << keyword << "\":\n";
+    for (const auto& a : v) {
+        if (a.name.find(keyword) != std::string::npos) {
+            std::cout << "- " << a.name << " — " << a.duration << " min\n";
+            found = true;
+        }
+    }
+    if (!found) {
+        std::cout << " Nuk u gjet asnjë aktivitet që përputhet.\n";
+    }
+}
+
