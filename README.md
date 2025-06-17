@@ -13,20 +13,6 @@ TimeLogger është një aplikacion i thjeshtë në C++ që ju ndihmon të regjis
 🎨 Mesazhe të ngjyrosura për përmirësim të përvojës vizuale
 
 ---
-
-## 📁 Struktura e Projektit
-
-TimeLogger/
-├── src/
-│ ├── main.cpp # Funksioni kryesor i programit
-│ ├── logger.cpp # Implementimi i klasës ActivityLogger
-│ └── logger.h # Deklaratat e funksioneve
-├── data/
-│ └── logs.txt # (krijohet automatikisht për të ruajtur aktivitetet)
-├── .gitignore
-├── LICENSE.txt
-└── README.md
-
 ## 🖥️ Ekzekutimi
 ./timelogger
 
