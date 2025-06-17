@@ -24,7 +24,5 @@ int main() {
     std::cout << "\033[1;32m✅ Aktiviteti u shtua me sukses!\033[0m\n";
     return 0;
     //test
-
-   
-
+<
 }
